@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #4dffcc;
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Tv_Screen, .Laptop, .Tablet, .Mobile {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* First Meadia Queries for small screen 1st */
+@media screen and (min-width: 0px)
+{ 
+ body{ 
+       background-color: #eadbdb;
+    }
+    /* applying on .Mobile */
+    .Mobile{
+        display: block;
+    }
+
+    .Tablet{
+        display: none;
+    }
+    .Laptop{
+        display: none;
+    }
+    .Tv_Screen{
+        display: none;
+    }
+}
+
+/*  This is Seconed Media Queries for Seconed Screen */
+@media screen and (min-width: 425px) 
+{
+    body {
+      background-color: #ff0000;
+    }
+  
+    
+    .Mobile{
+        display: block;
+    }
+
+    .Tablet{
+        display: none;
+    }
+    .Laptop{
+        display: none;
+    }
+    .Tv_Screen{
+        display: none;
+    }
+ }
+
+
+ /* This is Third Media Queries for Third Screen */
+ @media screen and ( min-width: 768px)
+ {
+    body{
+        background-color: #29f8ff;
+    }
+
+    .Mobile{
+        display: none;
+    }
+
+    .Tablet{
+        display: block;
+    }
+    .Laptop{
+        display: none;
+    }
+    .Tv_Screen{
+        display: none;
+    }
+ }
+
+/* this the is the forth Screen Media  */
+ @media screen and ( min-width: 1024px)
+ {
+    body{
+        background-color: #898015;
+    }
+
+    .Mobile{
+        display: none;
+    }
+
+    .Tablet{
+        display: none;
+    }
+    .Laptop{
+        display: block;
+    }
+    .Tv_Screen{
+        display: none;
+    }
+ }
+
+ /* this the is the fifth Screen Media  */
+ @media screen and ( min-width: 1440px)
+ {
+    body{
+        background-color: #278f32;
+    }
+
+    .Mobile{
+        display: none;
+    }
+
+    .Tablet{
+        display: none;
+    }
+    .Laptop{
+        display: none;
+    }
+    .Tv_Screen{
+        display: block;
+    }
+ }
+
+ /* this is normal page width */
+ @media screen and ( min-width: 1600px)
+ {
+    body{
+        background-color: #51ffdc;
+    }
+
+    
+    .Mobile{
+        display: none;
+    }
+
+    .Tablet{
+        display: none;
+    }
+    .Laptop{
+        display: none;
+    }
+    .Tv_Screen{
+        display: none;
+    }
+    
+ }
